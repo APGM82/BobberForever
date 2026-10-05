@@ -59,17 +59,6 @@
     <ellipse cx="270" cy="352" rx="100" ry="23" stroke-width="7" stroke-opacity="0.7"/>
   </g>
 
-  <!-- plumas -->
-  <g transform="translate(540 0) scale(-1 1)">
-    <path d="M282 150 C 230 110, 160 92, 92 108 C 150 118, 200 136, 262 172 Z" fill="url(#blue)"/>
-    <path d="M262 150 C 248 146, 150 120, 120 112" fill="none" stroke="#b9d0ff" stroke-opacity="0.6" stroke-width="3"/>
-    <path d="M280 168 C 220 150, 150 160, 84 196 C 150 182, 210 184, 262 190 Z" fill="url(#red)"/>
-    <path d="M262 180 C 230 172, 150 176, 112 186" fill="none" stroke="#ffc2b0" stroke-opacity="0.6" stroke-width="3"/>
-  </g>
-
-  <!-- punta -->
-  <path d="M270 72 L 284 112 L 278 220 L 262 220 L 256 112 Z" fill="url(#spike)"/>
-
   <!-- corcho -->
   <path d="M186 214 L 200 336 Q 270 362 340 336 L 354 214 Z" fill="url(#cork)"/>
   <ellipse cx="270" cy="214" rx="84" ry="22" fill="url(#corkTop)"/>
@@ -81,7 +70,18 @@
     <circle cx="252" cy="306" r="3"/>
     <circle cx="282" cy="276" r="2.5"/>
   </g>
-  <rect x="262" y="198" width="16" height="18" fill="url(#spike)"/>
+
+  <!-- plumas -->
+  <g transform="translate(540 0) scale(-1 1)">
+    <path d="M282 150 C 230 110, 160 92, 92 108 C 150 118, 200 136, 262 172 Z" fill="url(#blue)"/>
+    <path d="M262 150 C 248 146, 150 120, 120 112" fill="none" stroke="#b9d0ff" stroke-opacity="0.6" stroke-width="3"/>
+    <path d="M280 168 C 220 150, 150 160, 84 196 C 150 182, 210 184, 262 190 Z" fill="url(#red)"/>
+    <path d="M262 180 C 230 172, 150 176, 112 186" fill="none" stroke="#ffc2b0" stroke-opacity="0.6" stroke-width="3"/>
+  </g>
+
+  <!-- punta, clavada en el centro del corcho -->
+  <ellipse cx="270" cy="212" rx="12" ry="4" fill="#5c5238" fill-opacity="0.6"/>
+  <path d="M270 72 L 284 112 L 279 211 Q 270 216 261 211 L 256 112 Z" fill="url(#spike)"/>
 
   <!-- linea del agua -->
   <path d="M198 314 Q 270 340 342 314 L 341 338 Q 270 364 199 338 Z" fill="#0b2433" fill-opacity="0.55"/>
