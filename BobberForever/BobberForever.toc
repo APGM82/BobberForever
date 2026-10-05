@@ -1,0 +1,20 @@
+## Interface: 16001
+## Title: |cff66ccffBobber Forever|r
+## Version: 1.00
+## SavedVariables: BobberForeverDB
+## IconTexture: Interface\Icons\Trade_Fishing
+
+## Notes: A button that turns the sound up so you hear the bobber splash, and puts your sound settings back when you turn it off.
+## Notes-esES: Un boton que sube el sonido para oir el chapoteo del corcho y te devuelve tu configuracion de sonido al apagarlo.
+## Notes-esMX: Un boton que sube el sonido para oir el chapoteo del corcho y te devuelve tu configuracion de sonido al apagarlo.
+## Notes-deDE: Ein Knopf, der den Ton aufdreht, damit du das Platschen des Schwimmers hoerst, und deine Toneinstellungen beim Ausschalten zuruecksetzt.
+## Notes-frFR: Un bouton qui monte le son pour entendre le bouchon plonger, et remet tes reglages de son quand tu l'eteins.
+## Notes-itIT: Un pulsante che alza il suono per sentire il galleggiante, e rimette le tue impostazioni audio quando lo spegni.
+## Notes-ptBR: Um botao que aumenta o som para ouvir a boia, e devolve suas configuracoes de som quando voce desliga.
+## Notes-ruRU: Кнопка, которая делает звук громче, чтобы слышать всплеск поплавка, и возвращает ваши настройки звука при выключении.
+## Notes-koKR: 찌가 물에 튀는 소리가 잘 들리도록 소리를 키우고, 끄면 원래 소리 설정으로 되돌리는 버튼입니다.
+## Notes-zhCN: 一个按钮，调高音效让你听清鱼漂溅水声，关闭时恢复你原来的声音设置。
+## Notes-zhTW: 一個按鈕，調高音效讓你聽清魚漂濺水聲，關閉時恢復你原本的聲音設定。
+
+Locales.lua
+BobberForever.lua

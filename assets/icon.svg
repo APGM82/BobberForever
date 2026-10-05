@@ -1,0 +1,75 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bobber Forever">
+  <title>Bobber Forever</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123a4f"/>
+      <stop offset="1" stop-color="#06121a"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="50%" cy="58%" r="55%">
+      <stop offset="0" stop-color="#66ccff" stop-opacity="0.34"/>
+      <stop offset="0.6" stop-color="#2f8fc0" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#2f8fc0" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#66ccff" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#21648a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#66ccff" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff6b5a"/>
+      <stop offset="1" stop-color="#b3180f"/>
+    </linearGradient>
+
+    <linearGradient id="white" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9dde8"/>
+    </linearGradient>
+
+    <clipPath id="top">
+      <rect x="0" y="0" width="512" height="262"/>
+    </clipPath>
+    <clipPath id="bottom">
+      <rect x="0" y="262" width="512" height="250"/>
+    </clipPath>
+  </defs>
+
+  <!-- fondo -->
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="url(#bg)"/>
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="url(#glow)"/>
+  <rect x="14" y="14" width="484" height="484" rx="98" fill="none" stroke="url(#rim)" stroke-width="5"/>
+
+  <!-- ondas -->
+  <g fill="none" stroke="#66ccff" stroke-linecap="round">
+    <ellipse cx="256" cy="330" rx="190" ry="44" stroke-width="5" stroke-opacity="0.25"/>
+    <ellipse cx="256" cy="330" rx="140" ry="32" stroke-width="6" stroke-opacity="0.45"/>
+    <ellipse cx="256" cy="330" rx="92" ry="21" stroke-width="7" stroke-opacity="0.75"/>
+  </g>
+
+  <!-- salpicadura -->
+  <g fill="#bfeaff">
+    <circle cx="150" cy="248" r="9"/>
+    <circle cx="124" cy="282" r="6"/>
+    <circle cx="362" cy="248" r="9"/>
+    <circle cx="388" cy="282" r="6"/>
+    <circle cx="178" cy="210" r="5"/>
+    <circle cx="334" cy="210" r="5"/>
+  </g>
+
+  <!-- sedal -->
+  <path d="M256 160 C 262 120, 300 80, 360 40" fill="none" stroke="#e6f6ff" stroke-opacity="0.7" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- corcho -->
+  <rect x="246" y="140" width="20" height="40" rx="6" fill="#3b2a1c"/>
+  <circle cx="256" cy="262" r="86" fill="url(#red)" clip-path="url(#top)"/>
+  <circle cx="256" cy="262" r="86" fill="url(#white)" clip-path="url(#bottom)"/>
+  <circle cx="256" cy="262" r="86" fill="none" stroke="#081620" stroke-opacity="0.6" stroke-width="5"/>
+  <ellipse cx="222" cy="214" rx="26" ry="16" fill="#ffffff" fill-opacity="0.35" transform="rotate(-30 222 214)"/>
+
+  <!-- la parte baja del corcho, bajo el agua -->
+  <clipPath id="under"><circle cx="256" cy="262" r="88"/></clipPath>
+  <rect x="160" y="318" width="192" height="40" fill="#0b2433" fill-opacity="0.6" clip-path="url(#under)"/>
+  <ellipse cx="256" cy="318" rx="80" ry="12" fill="none" stroke="#bfeaff" stroke-opacity="0.8" stroke-width="5"/>
+</svg>
