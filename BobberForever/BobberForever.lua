@@ -101,13 +101,9 @@ local function Build()
         db.point, db.relPoint, db.x, db.y = point, relPoint, x, y
     end)
 
-    local border = button:CreateTexture(nil, "BACKGROUND")
-    border:SetColorTexture(0, 0, 0, 0.8)
-    border:SetPoint("TOPLEFT", -2, 2)
-    border:SetPoint("BOTTOMRIGHT", 2, -2)
-
     icon = button:CreateTexture(nil, "ARTWORK")
     icon:SetAllPoints()
+    icon:SetTexCoord(0.07, 0.93, 0.07, 0.93)
     icon:SetTexture("Interface\\Icons\\Trade_Fishing")
 
     -- apagado: cana tachada
@@ -132,6 +128,7 @@ local function Build()
         GameTooltip:Show()
     end)
     button:SetScript("OnLeave", function() GameTooltip:Hide() end)
+    ns.style.IconFrame(button)
 
     Place()
     Refresh()

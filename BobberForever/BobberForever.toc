@@ -17,4 +17,5 @@
 ## Notes-zhTW: 一個按鈕，調高音效讓你聽清魚漂濺水聲，關閉時恢復你原本的聲音設定。
 
 Locales.lua
+Style.lua
 BobberForever.lua
