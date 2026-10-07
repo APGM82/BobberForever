@@ -1,6 +1,6 @@
 ## Interface: 16001
 ## Title: |cff66ccffBobber Forever|r
-## Version: 1.00
+## Version: 1.01
 ## SavedVariables: BobberForeverDB
 ## IconTexture: Interface\Icons\Trade_Fishing
 
