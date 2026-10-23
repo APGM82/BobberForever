@@ -24,7 +24,7 @@ Made for World of Warcraft: Forever 1.60.1 (`Interface: 16001`).
 
 ## Installation
 
-1. Extract the `BobberForever` folder into `World of Warcraft\_classic_beta_\Interface\AddOns\`
+1. Extract the `BobberForever` folder into `World of Warcraft\_forever_\Interface\AddOns\`
 2. Restart the game.
 3. Check that it's enabled in the AddOns list on the character screen.
 
